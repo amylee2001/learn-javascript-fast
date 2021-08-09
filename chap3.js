@@ -18,4 +18,13 @@ var b = 10;
 console.log(a>b);
 console.log(b>a);
 
-console.log("demoArray")
+var demoArray = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+console.log("demoArray =\n" + demoArray);
+
+console.log('\n');
+console.log(demoArray.length);
+
+demoArray.length = 13;
+console.log('\n');
+console.log(demoArray.length);
+console.log("demoArray =\n" + demoArray);
